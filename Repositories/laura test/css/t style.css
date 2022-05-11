@@ -1,6 +1,18 @@
+.navbar-brand {
+    width:150px;
+    font-size: 24px;
+  }
+  .navbar-brand img {
+    height: 50px;
+   
+    float: left;
+    margin-right: 7px;
+  }
+  
 .card-img-top{
     width: 500px !important;
     height: 400px !important;
     position: absolute;
     object-fit: cover;
+    text-align: justify;
 }

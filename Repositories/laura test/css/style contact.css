@@ -1,4 +1,15 @@
-.contact #error_message {
+.navbar-brand {
+  width:150px;
+  font-size: 24px;
+}
+.navbar-brand img {
+  height: 50px;
+ 
+  float: left;
+  margin-right: 7px;
+}
+
+  .contact #error_message {
     margin-bottom: 20px;
     padding: 0px;
     background: #fe8b8e;
@@ -7,7 +18,7 @@
     transition: all 0.5s ease;
   }
   .contact .contact-info-item {
-    /* background-color: red; */
+    background-color: red; 
     -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
     max-width: 33.33%;
@@ -39,19 +50,19 @@
     border-bottom: 1px dotted #504e70;
   }
   .contact .contact-form {
-    /* background-color: red; */
+    background-color: red; 
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
   .contact .contact-form .col-6 {
-    /* background-color: red; */
+    background-color: red;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
   .contact .contact-form .col-12 {
-    /* background-color: red; */
+    background-color: red;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
@@ -68,11 +79,11 @@
     font-size: 16px;
     color: #504e70;
     transition: all 0.5s ease;
-  }
+  } 
   .contact .contact-form .form-item .form-control:focus {
     -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-  }
+   }
   .contact .contact-form .form-item textarea.form-control {
     height: 140px;
   }
@@ -85,4 +96,9 @@
   }
   .toggles .body {
     margin-left: 20px;
+  } 
+
+  .icon{
+    display: flex;
+    justify-content: center;
   }

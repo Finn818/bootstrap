@@ -1,0 +1,14 @@
+.navbar-brand {
+    width:150px;
+    font-size: 24px;
+  }
+  .navbar-brand img {
+    height: 50px;
+   
+    float: left;
+    margin-right: 7px;
+  }
+
+  #footer{
+    margin-top: 170px;
+  }

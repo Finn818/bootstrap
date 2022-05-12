@@ -4,15 +4,28 @@
   }
   .navbar-brand img {
     height: 50px;
-   
     float: left;
     margin-right: 7px;
   }
-  
+
 .card-img-top{
     width: 500px !important;
     height: 400px !important;
     position: absolute;
     object-fit: cover;
     text-align: justify;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background-image: url(../picture/grey\ Screenshot\ 2022-05-12\ 105929.png);
+}
+
+.text{
+  display: flex;
+  justify-content: center;
 }

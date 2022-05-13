@@ -11,7 +11,8 @@
   
 .service .container {
     padding-bottom: 40px;
-    height: 475px;
+    height: 100%
+    ;
   }
 
   .service .service-item {
@@ -47,6 +48,7 @@
     line-height: 25px;
     margin: 125px;
     justify-content: center;
+    display: block;
   }
 
   .service{
@@ -63,6 +65,7 @@
 
   body{
     background-image: url(../picture/grey\ Screenshot\ 2022-05-12\ 105929.png);
+      font-family: 'Macondo' !important;
   }
 
   .section-title{

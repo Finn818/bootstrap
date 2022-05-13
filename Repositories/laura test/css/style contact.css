@@ -96,6 +96,7 @@
 
   body{
     background: url(../picture/grey\ Screenshot\ 2022-05-12\ 105929.png);
+      font-family: 'Macondo' !important;
   }
 
   .text-center{

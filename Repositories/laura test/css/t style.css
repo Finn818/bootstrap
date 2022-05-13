@@ -23,9 +23,32 @@
 
 body{
   background-image: url(../picture/grey\ Screenshot\ 2022-05-12\ 105929.png);
+    font-family: 'Macondo' !important;
 }
 
 .text{
   display: flex;
   justify-content: center;
 }
+
+/* .container div.cols {
+  position: relative;
+  opacity: 70%;
+  background: transparent;
+  z-index: -1;
+}
+
+.container div.cols h2 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 2;
+}
+
+.container div.cols:hover:nth-child(even) {
+  content: url("/picture/Marshalino\ \(3\).JPG");
+}
+
+.container div.cols:hover:nth-child(odd)  {
+  content: url("/picture/Mikhail\ \(1\).JPG");
+} */
